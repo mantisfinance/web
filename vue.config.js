@@ -10,7 +10,7 @@ const { emerald } = require('tailwindcss/colors');
 
 module.exports = {
   // `docs` is a special folder that can be served via Github Pages without using a `gh-pages` branch
-  outputDir: 'docs',
+  outputDir: 'dist',
   publicPath: '/',
   pwa: {
     themeColor: emerald['600'],
