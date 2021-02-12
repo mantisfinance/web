@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 body {
+  background: hsl(116deg 100% 66%);
   font-feature-settings: 'lnum' 1;
   font-variant-numeric: lining-nums;
   text-rendering: optimizeLegibility;
@@ -13,4 +14,41 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+}
+
+#mantis-3d .container, #mantis-3d-lines .container {
+  text-align: center;
+}
+
+#mantis-3d svg, #mantis-3d-lines svg {
+  margin: auto;
+  overflow: visible;
+}
+
+#mantis-3d-wrapper {
+  position: relative;
+}
+
+#mantis-3d {
+  opacity: 0;
+  transition: opacity 1s;
+  animation: eerie 8s linear infinite forwards;
+}
+
+#mantis-3d:hover {
+  opacity: 1;
+}
+
+@keyframes eerie {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  
+  50% {
+    filter: hue-rotate(180deg);
+  }
+  
+  100% {
+    filter: hue-rotate(360deg);
+  }
 }
