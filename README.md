@@ -1,10 +1,10 @@
-# Vue + Tailwind Starter
+# Mantis Finance Web (based on Vue + Tailwind Starter)
 
 > A boilerplate for starting new Vue projects with Tailwind support
 
 ## Included
 
-- [x] Easy Github Pages Deployments Via `docs` Folder ([Demo](https://james2doyle.github.io/vue-tailwind-starter/))
+- [x] Easy Github Pages Deployments Via `dist` Folder ([Demo](https://james2doyle.github.io/vue-tailwind-starter/))
 - [x] Vue (with Router)
 - [x] [Vue Composition API](https://github.com/vuejs/composition-api)
 - [x] Tailwind 2
@@ -29,7 +29,7 @@ npm run build
 
 **Github Pages:**
 
-Go into your repo `/settings` page and change the source of your github pages to your **main branch** and the `docs` folder:
+Go into your repo `/settings` page and change the source of your github pages to your **main branch** and the `dist` folder:
 
 ![github pages setup](pages.png)
 
